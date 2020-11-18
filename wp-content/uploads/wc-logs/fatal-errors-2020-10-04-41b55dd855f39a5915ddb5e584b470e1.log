@@ -1,0 +1,9 @@
+2020-10-04T08:31:36+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_chosen_shipping_method_ids() in /home2/havefun/online.codingapeschool.com/wp-content/plugins/newebpay/class-newebpay.php:1673
+Stack trace:
+#0 /home2/havefun/online.codingapeschool.com/wp-includes/class-wp-hook.php(287): newebpay_alter_payment_gateways(Array)
+#1 /home2/havefun/online.codingapeschool.com/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /home2/havefun/online.codingapeschool.com/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(85): apply_filters('woocommerce_pay...', Array)
+#3 /home2/havefun/online.codingapeschool.com/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#4 /home2/havefun/online.codingapeschool.com/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#5 /home2/havefun/online.codingapeschool.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(846): WC_Payment_Gateways::inst 於 /home2/havefun/online.codingapeschool.com/wp-content/plugins/newebpay/class-newebpay.php 在 1673 線上
+
